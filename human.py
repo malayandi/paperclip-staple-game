@@ -79,7 +79,7 @@ class Human:
 
 		:param state: current world state
 		"""
-		return self._policy.getAction(state, self._theta) # TODO: Make the policy class
+		return self._policy.getAction(state, self._theta) # TODO: Clarify argument for the getAction method
 
 	def nullAction(self):
 		"""
