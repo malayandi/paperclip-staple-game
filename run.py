@@ -57,7 +57,7 @@ class Run:
         env = Game(theta, _num_objects, _human_prod_cap,
             _robot_prod_cap, _delta)
         human = Human(theta, _num_objects, _human_prod_cap, policy)
-        robot = Robot(_num_objects, _robot_prod_cap)
+        robot = Robot(_num_objects, _robot_prod_cap, _delta)
 
         for t in range(_max_T):
             if t % 2 == 0:
